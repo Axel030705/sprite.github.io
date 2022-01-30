@@ -1,0 +1,18 @@
+body{
+    background: black;
+}
+.sprite{
+    width: 164px;
+    height: 175px;
+    background-image: url("sprite.png");
+    margin: 0 auto;
+    animation: animacion 1s steps(5) infinite;
+}
+@keyframes animacion{
+    0%{
+        background-position: 0px;
+    }
+    100%{
+        background-position: -820px;
+    }
+}
