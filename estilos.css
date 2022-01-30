@@ -1,18 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: consolas;
+    cursor: url("fondo-f.png"), auto;
+}
 body{
-    background: black;
+background: black;
 }
-.sprite{
-    width: 164px;
-    height: 175px;
-    background-image: url("sprite.png");
-    margin: 0 auto;
-    animation: animacion 1s steps(5) infinite;
+.cursor{
+    cursor: url("sinfondo-c.png"),auto;
+    background-color: beige;
 }
-@keyframes animacion{
-    0%{
-        background-position: 0px;
-    }
-    100%{
-        background-position: -820px;
-    }
+.cursor:hover{
+    background-color: aqua;
 }
